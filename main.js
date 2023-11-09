@@ -61,3 +61,20 @@ var Celular ={
 //Para Mostrar la informacion de un objeto, se coloca el nombre del objeto y .Celular.marca
 console.log(Celular.marca)  
 console.log(Celular.color)
+
+Clase 3 JS 
+//Contatenar - Unir texto 
+var nombre = "Pepito "
+
+console.log("Mi nombre es "+  nombre)
+
+//Opcion 1
+console.log("El estudiante"+" "+nombre+"es bueno es javascript")
+//Opcion 2 
+console.log("El estudiante",nombre,"es bueno es javascript")
+//Opcion 3 
+
+console.log(`El estudiante va a usar backticks ${nombre} al estudiante le gusto o no le guste esta opcion   `)
+
+//Error
+console.log("El estudiante nombre ")
