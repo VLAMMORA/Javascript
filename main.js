@@ -62,7 +62,7 @@ var Celular ={
 console.log(Celular.marca)  
 console.log(Celular.color)
 
-Clase 3 JS 
+//Clase 3 JS 
 //Contatenar - Unir texto 
 var nombre = "Pepito "
 
@@ -76,5 +76,63 @@ console.log("El estudiante",nombre,"es bueno es javascript")
 
 console.log(`El estudiante va a usar backticks ${nombre} al estudiante le gusto o no le guste esta opcion   `)
 
-//Error
-console.log("El estudiante nombre ")
+//Clase 3 Mostrar informacion en un de un ciclo o bucle en un elemento HTML
+
+//Ciclos 
+// Arrays [] para representar datos Multiples 
+var mascotas= ["Gato","perro","conejo","ballena",25]  //array arreglo muchos 
+
+console.log(mascotas[0])
+
+console.log(mascotas[3])
+
+
+//Foreach
+
+//Escribi foreach y tab 
+//Reemplazar la palabra array con el arreglo que han creado 
+mascotas.forEach(element => {
+    //Aqui se pone el codigo 
+    console.log(element)
+    //mostrar el 2 
+    // mostrar todos al limite de elementos 
+});
+
+
+var Estudiantes = ["Daniel","Ariel","Chris","Checho","Adrian","Carlos","Melani"]
+
+//Posicion 3 
+//Elementos 7
+
+console.log(Estudiantes[3])
+
+Estudiantes.forEach(element => {
+    console.log(element)
+});
+
+//Capturamos el elemento de HTML por medio del ID 
+var midiv = document.getElementById("clientes")
+
+console.log(midiv)
+//Con Inner HTML podemos ingresar texto 
+midiv.innerHTML = "Hola mundo "
+
+var VLA = document.getElementById("VLA")
+
+VLA.innerHTML = "Academia de tecnologia"
+
+var cursos = ["Cisco","SQL","Frontend"]
+
+cursos.forEach(element => {
+    console.log(element)
+});
+
+var Lista = document.getElementById("Lista")
+
+cursos.forEach(element => {
+    console.log(element)
+    Lista.innerHTML += element
+});
+
+
+
